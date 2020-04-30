@@ -7,12 +7,11 @@ do `help` in server console to get commands, it should tell you what each comman
 
 ### Building a Jar  
 
-1) fork this repo
-2) download src
-3) run gradlew.bat
-4) go to the plugin folder in cmd. (example: `cd C:\user\one\desk\pluginfolder\`)
-5) type `gradlew jar` and execute (`./gradlew jar` on linux)
-6) done, look for plugin.jar in `pluginfolder\build\libs\`
+1) download src
+2) run gradlew.bat
+3) go to the plugin folder in cmd. (example: `cd C:\user\one\desk\pluginfolder\`)
+4) type `gradlew jar` and execute (`./gradlew jar` on linux)
+5) done, look for plugin.jar in `pluginfolder\build\libs\`
 
 Note: Highly recommended to use Java 8.
 
