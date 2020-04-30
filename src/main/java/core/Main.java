@@ -37,13 +37,13 @@ public class Main extends Plugin {
             int i = Strings.parseInt(arg[2]);
             Log.info(byteCode.putInt(arg[0], arg[1], i));
         });
-        handler.register("remove","<fileName> <key>", "puts a string in into the json.cn", arg -> {
+        handler.register("remove","<fileName> <key>", "removes a key from the json file", arg -> {
             Log.info(byteCode.remove(arg[0], arg[1]));
         });
-        handler.register("has","<fileName>", "makes a json.cn with a basic object", arg -> {
+        handler.register("has","<fileName>", "checks that a file exists", arg -> {
             Log.info("Has `" + location + arg[0] + ".cn` : " + byteCode.has(arg[0]));
         });
-        handler.register("hasdir","<fileName>", "makes a json.cn with a basic object", arg -> {
+        handler.register("hasdir","<fileName>", "checks that a directory exists", arg -> {
             Log.info("Has `" + userHomePath+"/"+arg[0] + "/` : " + byteCode.hasDir(arg[0]));
         });
     }
