@@ -1,9 +1,11 @@
 ### Description
-Basic foundation for a server like chaotic-neutral or .io . with this, you can store player data, login, and whatever you choose.
-To use this plugin, you must fork this repo and add your own code. Should the foundation have an issue, it will be fixed for you too!
+Core plugin for the CN plugins.  
+This plugin allows you to easily modify the settings of CN plugins.
 
+### Usage  
+do `help` in server console to get commands, it should tell you what each command does.  
 
-### Building a Jar
+### Building a Jar  
 
 1) fork this repo
 2) download src
